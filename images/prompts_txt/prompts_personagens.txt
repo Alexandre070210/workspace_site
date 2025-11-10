@@ -1,0 +1,57 @@
+# Prompts de personagens — formato 16:9 (paisagem)
+# Adicionado: 2025-11-10
+# Observações: contém versões "diretas" (estilo semelhante a Free Fire) e versões "evocativas" (inspiradas, sem usar personagens/branding direto).
+
+---
+
+## Versões diretas (sem referências de marca explícitas)
+
+1) Grupo de 3 personagens em pose dinâmica, estilo battle-royale mobile, composição paisagem 16:9, cenário: telhado urbano ao pôr do sol, fumaça leve e faíscas ao redor, luz de rim dourada, roupas táticas coloridas (jaquetas, coletes), armas futuristas estilizadas, expressões determinadas, alta nitidez, render 3D cinematográfico, detalhe fino em tecido e cabelo, profundidade de campo moderada, 1920x1080, look épico e energético.
+
+2) Personagem solitário estilo atirador de elite em cenário urbano destruído, posição em primeiro plano à esquerda, horizonte ao fundo, néon azul e laranja contrastante, pose de vigilância, detalhes realistas no rosto e equipamento, iluminação dramática, granulação cinematográfica sutil, alta resolução, 16:9 paisagem.
+
+3) Dois personagens (um corpo-a-corpo, outro com mochila e drone), ação congelada no ar, explosão distante, cores saturadas, estilo artístico moderno com detalhes realistas, roupas com patches e acessórios, composição ampla em 16:9, sensação de jogo competitivo, contraste alto e iluminação volumétrica.
+
+---
+
+## Versões evocativas / originais (evitar uso direto de IP)
+
+4) Três combatentes originais inspirados em jogos de tiro móvel, design único (sem logos ou rostos reconhecíveis), paisagem 16:9, cenário: terminal de transporte abandonado ao amanhecer, iluminação suave, paleta frio-quente (azul-pêssego), poses variadas (estratégia e prontidão), detalhes estilizados em equipamentos, aparência moderna e acessível para uso comercial.
+
+5) Equipe diversificada de personagens urbanos com roupas táticas estilizadas e cores vibrantes, ângulo amplo em 16:9, ação implícita (preparando-se para missão), fundo com grafite e luzes de rua, sem elementos identificáveis de jogos existentes, estilo semirrealista, alto detalhamento, pronto para ilustração promocional.
+
+6) Cena narrativa em 16:9: líder olhando para mapa holográfico enquanto a equipe faz cobertura, neblina baixa e iluminação cênica, estética futurista-terrena, design original de armas e gadgets (sem copiar modelos reais), cores elegantes e composições de alto impacto.
+
+---
+
+## Instruções e parâmetros recomendados
+
+- Resolução/Aspect ratio: 1920x1080 (16:9) ou usar flag --ar 16:9 (Midjourney). Preferir tamanho nativo se a ferramenta permitir.
+- Estilo: "cinematic, highly-detailed, 4k, photorealistic" para realista; "stylized, painterly, high detail" para versão artística.
+- Negativas (neg prompt): "text, watermark, logo, brand name, lowres, deformed, poorly drawn, extra limbs, ugly, blurry, out of frame".
+- Stable Diffusion (txt2img) sugestões: steps 20-40, sampler DPM++ 2M Karras ou Euler a, cfg scale 6.5-9.0, seed (opcional) para reprodutibilidade.
+- Midjourney: adicionar flags como `--ar 16:9 --v 5 --q 2` (ajuste `--v`/`--q` conforme versão/recursos).
+- Leonardo / outros: usar a resolução 1920x1080 ou 2048x1152; ajustar denoise/creativity conforme desejado.
+
+Exemplo (prompt completo para SD/Midjourney):
+"Grupo de 3 personagens em pose dinâmica, batalha ao pôr do sol no topo de um arranha-céu, fumaça e faíscas, roupas táticas coloridas, armas estilizadas, iluminação rim dourada, cinematic, photorealistic, ultra-detailed, 16:9 --ar 16:9"
+
+Negativas recomendadas: "watermark, logo, text, lowres, bad anatomy, extra limbs, deformed"
+
+---
+
+## Observações sobre direitos autorais
+
+- É possível gerar imagens que reproduzam personagens com direitos autorais, mas verifique os termos de serviço da plataforma onde usará as imagens (algumas proíbem o uso comercial de personagens protegidos). Se o objetivo for comercial, prefira as versões "evocativas"/originais.
+
+---
+
+## Seeds e variações
+
+- Experimente seeds diferentes para variações (ex: seed=12345, seed=67890).
+- Para gerar variações rápidas, altere a paleta de cores (neon, pastel, gritty), o ângulo de câmera (wide, low-angle), e o nível de realismo (photorealistic vs stylized).
+
+---
+
+# Fim das entradas adicionadas em 2025-11-10
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens — Galeria e História</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .hero {
+            background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.6)), url('images/personagens_02.png') center/cover no-repeat;
+            color: #fff;
+        }
+        .story-card img { max-height: 360px; object-fit: cover; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Meus Favoritos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Personagens</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero py-5">
+        <div class="container py-5">
+            <h1 class="display-5 fw-bold">Trilogia: A Última Operação</h1>
+            <p class="lead">Três imagens. Três momentos. Uma história que une coragem, sacrifício e redenção — tudo em panorama épico 16:9.</p>
+            <a href="#galeria" class="btn btn-primary btn-lg">Ver Galeria</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="galeria">
+            <div class="row g-4 align-items-stretch">
+                <div class="col-12 col-md-6">
+                    <div class="card story-card h-100 shadow-sm" id="capitulo-1">
+                        <img src="images/personagens_01.png" class="card-img-top img-fluid" alt="Personagens em telhado ao pôr do sol">
+                        <div class="card-body">
+                            <h3 class="card-title">Capítulo I — O Chamado</h3>
+                            <p class="card-text">No topo do arranha-céu, a cidade em chamas ao longe, três figuras se preparam. A líder observa o mapa, os sinais luminosos traduzem perigo iminente. É ali que tudo começa: uma missão que promete virar o jogo. O vento traz a eletricidade do momento — apostas altas, confiança em cada passo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="card story-card h-100 shadow-sm" id="capitulo-2">
+                        <img src="images/personagens_02.png" class="card-img-top img-fluid" alt="Atirador em cenário urbano destruído">
+                        <div class="card-body">
+                            <h3 class="card-title">Capítulo II — A Emboscada</h3>
+                            <p class="card-text">No coração do distrito abandonado, o atirador solitário mantém a vigilância. Néons cortam a névoa e as decisões fazem eco. Um sinal: inimigos se movem. Com precisão fria, ele garante a cobertura para que a equipe avance — cada tiro é calculado, cada segundo é uma vida salva.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="card story-card h-100 shadow-sm" id="capitulo-3">
+                        <img src="images/personagens_03.png" class="card-img-top img-fluid" alt="Equipe em ação com drone e explosão ao fundo">
+                        <div class="card-body">
+                            <h3 class="card-title">Capítulo III — A Última Jogada</h3>
+                            <p class="card-text">Explosões distantes acendem o céu enquanto a equipe executa a manobra final: um drone guia a entrada, um salto sincronizado, um instante que decide destinos. No final, não é apenas uma vitória tática — é a história de quem se recusou a recuar. As luzes se apagam, mas a lenda começa a brilhar.</p>
+                            <div class="mt-3">
+                                <a href="index.html" class="btn btn-outline-secondary me-2">Voltar</a>
+                                <a href="#" class="btn btn-success">Baixar imagens (zip)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <small>© 2025 — Galeria de Personagens. Imagens em 16:9 — mostradas apenas para demonstração.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
