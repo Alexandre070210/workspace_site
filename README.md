@@ -1,6 +1,11 @@
+
 # Projeto: Galeria de Personagens (16:9)
 
 Uma pequena página estática que mostra uma trilogia de imagens em formato paisagem 16:9 com uma história em três capítulos. O projeto contém exemplos de prompts para geração de imagens (em `images/prompts_personagens.txt`) e uma galeria responsiva construída com Bootstrap.
+
+Site ao vivo: https://alexandre070210.github.io/workspace_site/
+
+Observação: se você hospedou o site em uma URL diferente (ex.: domínio customizado), substitua o link acima pelo URL correto.
 
 Este repositório foi estruturado com a ajuda de ferramentas de IA (GitHub Copilot e Gemini) para acelerar ideias de conteúdo e organização.
 
